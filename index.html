@@ -9,8 +9,11 @@
 </head>
 <body>
     <main>
+        <input id="size" type="range" min="16" value="16" onchange="createGrid()">
+        <p id="size-display"></p>
+        <button id="clear" type="button" onclick="createGrid()">Clear</button> 
         <div id="grid">
-
+            <!-- the divs that will make up the grid are made/inserted by javascript -->
         </div>
     </main>
 

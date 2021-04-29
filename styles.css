@@ -5,33 +5,31 @@ html, body {
     overflow: hidden;
     font-family: arial, sans-serif;
     font-size: 14px;
+
 }
 
 main {
     font-size: 14px;
     /*
     NEED TO CENTER THIS ON THE SCREEN???
+    possibly make a "border" and incorporate the options in the border???
     */
 }
 
 #grid {
-    font-size: 14px;
-    /*
-    NEED TO MAKE THIS TAKE UP A CERTAIN PERCENTAGE OF THE SCREEN???
+    width: 700px;
+    height: 700px;
+    display: grid;
+    /* gets set with js
+    grid-template-columns: repeat( x, 1fr );
+    grid-template-rows: auto;
     */
 }
 
-.rows {
-    font-size: 14px;
-}
-
 .squares {
-    font-size: 14px;
-    outline: 4px;
-    padding: 10px;
-    outline-color: black;
-
-    /*
-    NEED TO MAKE THE SQUARES TAKE UP AN EQUAL PORTION OF THE AREA THEY'RE CONTAINED IN???
+    background-color: black;
+    /* BORDER IS ANNOYING TO LOOK AT commented out for now
+    MAKE THIS A TOGGLABLE BUTTON???
+    border: 1px dotted white;
     */
 }
